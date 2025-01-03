@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/fifth-website/static/css/main.028b4821.css",
+    "main.js": "/fifth-website/static/js/main.1bb71f5b.js",
+    "static/media/home-banner-3.png": "/fifth-website/static/media/home-banner-3.c289164be7e236a6e070.png",
+    "static/media/home-banner.png": "/fifth-website/static/media/home-banner.563c48fd81e92a499d1b.png",
+    "static/media/home-banner-2.png": "/fifth-website/static/media/home-banner-2.8cebef6d03279d856c70.png",
+    "static/media/browse-image-3.png": "/fifth-website/static/media/browse-image-3.796e14d38d108c54a9db.png",
+    "static/media/browse-image-2.png": "/fifth-website/static/media/browse-image-2.1d40af22ea555a89e75f.png",
+    "static/media/browse-image-1.png": "/fifth-website/static/media/browse-image-1.32528afbb865f913dd2a.png",
+    "static/media/browse-image-4.png": "/fifth-website/static/media/browse-image-4.39c9feebfb16e2f7fe26.png",
+    "static/media/home-product-6.png": "/fifth-website/static/media/home-product-6.65da76c10cb6bafd2021.png",
+    "static/media/home-product-8.png": "/fifth-website/static/media/home-product-8.a94fb45ce1b2a545c1d5.png",
+    "static/media/home-product-4.png": "/fifth-website/static/media/home-product-4.648040195456f0e96acd.png",
+    "static/media/home-product-7.png": "/fifth-website/static/media/home-product-7.c7308df6cf71b3c4d25a.png",
+    "static/media/home-product-1.png": "/fifth-website/static/media/home-product-1.bd6f4fe8ccb93ffa02d0.png",
+    "static/media/home-product-5.png": "/fifth-website/static/media/home-product-5.5b7a7b2cbf62493d3dda.png",
+    "static/media/home-product-3.png": "/fifth-website/static/media/home-product-3.c793705657cc87e86a8d.png",
+    "static/media/home-product-2.png": "/fifth-website/static/media/home-product-2.f4b84a750261634b1b2d.png",
+    "static/media/icon.png": "/fifth-website/static/media/icon.e905bdc7e0778cff17e4.png",
+    "index.html": "/fifth-website/index.html",
+    "main.028b4821.css.map": "/fifth-website/static/css/main.028b4821.css.map",
+    "main.1bb71f5b.js.map": "/fifth-website/static/js/main.1bb71f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.028b4821.css",
+    "static/js/main.1bb71f5b.js"
+  ]
+}
