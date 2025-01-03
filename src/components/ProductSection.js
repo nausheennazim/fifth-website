@@ -18,14 +18,14 @@ const ProductSection = ({ arrivals, top }) => {
         <div className="products-div">
           <h1 class="product-type">NEW ARRIVALS</h1>
           {arrivals.map((product) => (
-            <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} />
+            <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} discount={product.discount} discountedPrice={product.discountedPrice} />
           ))}
           <button className="view-button" onClick={moveToPage}> View All</button>
         </div>
         <div className="products-div">
           <h1 class="product-type">TOP SELLING</h1>
           {top.map((product) => (
-            <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} />))}
+            <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} discount={product.discount} discountedPrice={product.discountedPrice} />))}
           <button className="view-button" onClick={moveToPage}>View All</button>
         </div>
       </div>

@@ -18,8 +18,10 @@ export const arrivals = [
   {
     name: "DCA X SAFFY Baby Tees",
     rating: 4.5,
-    price: 240,
-    img: homeProduct2
+    price: 260,
+    img: homeProduct2,
+    discount: 20,
+    discountedPrice: 240,
   },
   {
     name: "DCA Adornments Hip Flask",
@@ -30,8 +32,10 @@ export const arrivals = [
   {
     name: "Delude Necklace",
     rating: 4.5,
-    price: 130,
-    img: homeProduct4
+    price: 160,
+    img: homeProduct4,
+    discount: 30,
+    discountedPrice: 130,
   },
 ];
 
@@ -39,8 +43,10 @@ export const top = [
   {
     name: "VERTICAL STRIPED SHIRT",
     rating: 5,
-    price: 212,
-    img: homeProduct5
+    price: 232,
+    img: homeProduct5,
+    discount: 20,
+    discountedPrice: 212,
   },
   {
     name: "COURAGE GRAPHIC T-SHIRT",
@@ -78,32 +84,40 @@ export const newArrivals = [
   {
     name: "DCA Adornments Hip Flask",
     rating: 3.5,
-    price: 180,
-    img: homeProduct3
+    price: 150,
+    img: homeProduct3,
+    discount: 30,
+    discountedPrice: 120,
   },
   {
     name: "Delude Necklace",
     rating: 4.5,
-    price: 130,
-    img: homeProduct4
+    price: 260,
+    img: homeProduct4,
+    discount: 20,
+    discountedPrice: 240,
   },
   {
     name: "VERTICAL STRIPED SHIRT",
     rating: 5,
-    price: 212,
+    price: 232,
     img: homeProduct5
   },
   {
     name: "COURAGE GRAPHIC T-SHIRT",
     rating: 4,
-    price: 145,
-    img: homeProduct6
+    price: 160,
+    img: homeProduct6,
+    discount: 30,
+    discountedPrice: 130,
   },
   {
     name: "DCA X SAFFY Earrings",
     rating: 3,
     price: 80,
-    img: homeProduct7
+    img: homeProduct7,
+    discount: 20,
+    discountedPrice: 212,
   },
   {
     name: "DCA X Metal Earring",

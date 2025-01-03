@@ -45,7 +45,7 @@ const NewArrivalsPage = ({ openNewsletterDialog }) => {
 
           <div className="arv-items">
             {newArrivals.map((product) => {
-              return <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} isTransparent={true} />
+              return <ProductCard name={product.name} rating={product.rating} price={product.price} img={product.img} isTransparent={true} discount={product.discount} discountedPrice={product.discountedPrice} />
             })}
           </div>
 

@@ -21,7 +21,7 @@ const styles = {
   },
   gridContainer: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(2, 1fr)',
+    gridTemplateColumns: 'repeat(7, 1fr)',
     gap: '16px',
   },
   columnContainer: {
@@ -51,37 +51,33 @@ const ImageGrid = () => {
     <div style={styles.container}>
       <h2 style={styles.title}>BROWSE</h2>
       <div style={styles.gridContainer}>
-        <div style={styles.columnContainer}>
-          <div style={styles.imageWrapper}>
-            <img
-              src={image1}
-              alt="Fashion photo with metallic accessories"
-              style={styles.image}
-            />
-          </div>
-          <div style={styles.imageWrapper}>
-            <img
-              src={image3}
-              alt="Person in Victorian-style red outfit"
-              style={styles.image}
-            />
-          </div>
+        <div style={{ ...styles.imageWrapper, gridColumn: "span 3" }}>
+          <img
+            src={image1}
+            alt="Fashion photo with metallic accessories"
+            style={{ ...styles.image }}
+          />
         </div>
-        <div style={styles.columnContainer}>
-          <div style={styles.imageWrapper}>
-            <img
-              src={image2}
-              alt="Person holding candle in dark clothing"
-              style={styles.image}
-            />
-          </div>
-          <div style={styles.imageWrapper}>
-            <img
-              src={image4}
-              alt="Charm bracelet with cross and star"
-              style={styles.image}
-            />
-          </div>
+        <div style={{ ...styles.imageWrapper, gridColumn: "span 4" }}>
+          <img
+            src={image2}
+            alt="Person in Victorian-style red outfit"
+            style={{ ...styles.image }}
+          />
+        </div>
+        <div style={{ ...styles.imageWrapper, gridColumn: "span 4" }}>
+          <img
+            src={image3}
+            alt="Person holding candle in dark clothing"
+            style={{ ...styles.image }}
+          />
+        </div>
+        <div style={{ ...styles.imageWrapper, gridColumn: "span 3" }}>
+          <img
+            src={image4}
+            alt="Charm bracelet with cross and star"
+            style={{ ...styles.image }}
+          />
         </div>
       </div>
     </div>

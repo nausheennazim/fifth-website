@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import '../styles/ProductCard.css';
 
-const ProductCard = ({ name, rating, price, img, isTransparent }) => {
+const ProductCard = ({ name, rating, price, img, isTransparent, discount, discountedPrice }) => {
   const renderStars = (rating) => {
 
     if (typeof rating !== 'number' || rating < 0) {
@@ -37,7 +37,27 @@ const ProductCard = ({ name, rating, price, img, isTransparent }) => {
           <span className="rating-score">{rating}/5</span>
         </div>
         <div className='price-discount'>
-          <p className="product-price">${price}</p>
+          {!discountedPrice && <p className="product-price">${price}</p>}
+          {discountedPrice &&
+            <div style={{
+              display: "flex",
+              alignItems: "center",
+            }}>
+              <p className="product-price">${discountedPrice}</p>
+              <p className="product-price" style={{
+                textDecoration: "line-through",
+                opacity: .5
+              }}>${price}</p>
+              <p style={{
+                marginTop: "8px", marginBottom: 0,
+                background: "rgb(255, 0 , 0, 0.2)",
+                padding: "3px 12px",
+                borderRadius: "16px",
+                color: "red",
+                fontSize: "0.8rem"
+              }}>-{discount}%</p>
+            </div>
+          }
         </div>
       </div>
     </div>
