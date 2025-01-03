@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fifth-website/static/css/main.2ace3789.css",
-    "main.js": "/fifth-website/static/js/main.d6b1c422.js",
+    "main.css": "/fifth-website/static/css/main.003f695c.css",
+    "main.js": "/fifth-website/static/js/main.f442e7d0.js",
     "static/media/home-banner-3.png": "/fifth-website/static/media/home-banner-3.c289164be7e236a6e070.png",
     "static/media/home-banner.png": "/fifth-website/static/media/home-banner.563c48fd81e92a499d1b.png",
     "static/media/home-banner-2.png": "/fifth-website/static/media/home-banner-2.8cebef6d03279d856c70.png",
@@ -19,11 +19,11 @@
     "static/media/home-product-2.png": "/fifth-website/static/media/home-product-2.f4b84a750261634b1b2d.png",
     "static/media/icon.png": "/fifth-website/static/media/icon.e905bdc7e0778cff17e4.png",
     "index.html": "/fifth-website/index.html",
-    "main.2ace3789.css.map": "/fifth-website/static/css/main.2ace3789.css.map",
-    "main.d6b1c422.js.map": "/fifth-website/static/js/main.d6b1c422.js.map"
+    "main.003f695c.css.map": "/fifth-website/static/css/main.003f695c.css.map",
+    "main.f442e7d0.js.map": "/fifth-website/static/js/main.f442e7d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ace3789.css",
-    "static/js/main.d6b1c422.js"
+    "static/css/main.003f695c.css",
+    "static/js/main.f442e7d0.js"
   ]
 }
