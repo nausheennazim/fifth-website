@@ -1,0 +1,80 @@
+.filter-dialog {
+  position: fixed; 
+  bottom: 0px; 
+  right: 15%; 
+  background: #ffffff;
+  padding: 10px 20px;
+  padding-bottom: 0;
+  border-radius: 20px 20px 0 0; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  width: 300px;
+  z-index: 1000; 
+}
+
+.filter-dialog hr {
+  opacity: 0.6;
+}
+
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: #666;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  max-width: 300px;
+}
+
+.color-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.color-circle[style*="rgb(255, 255, 255)"] {
+  border: 1px solid #E0E0E0;
+}
+
+.checkmark {
+  color: white;
+  font-size: 20px;
+}
+
+.size-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.size-pill {
+  padding: 8px 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: #F5F5F5;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s;
+  color: #333;
+}
+
+.size-pill.selected {
+  background-color: black;
+  color: white;
+}
+
+.filter-dialog button {
+  appearance: none;
+  -webkit-appearance: none;
+}
+

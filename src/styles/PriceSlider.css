@@ -1,0 +1,81 @@
+
+.price-container {
+  padding: 20px;
+  padding-top: 0;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.arrow {
+  transform: rotate(180deg);
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 2px;
+}
+
+.slider__track {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #e0e0e0;
+}
+
+.slider__range {
+  position: absolute;
+  height: 2px;
+  background-color: black;
+}
+
+.thumb {
+  position: absolute;
+  pointer-events: none;
+  height: 0;
+  width: 100%;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.thumb::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: all;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.thumb::-moz-range-thumb {
+  pointer-events: all;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.thumb--left {
+  z-index: 3;
+}
+
+.thumb--right {
+  z-index: 4;
+}
+
+.price-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  font-size: 16px;
+  color:black;
+} 

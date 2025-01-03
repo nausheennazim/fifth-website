@@ -1,0 +1,138 @@
+/* Footer.css */
+.footer {
+  background-color: #000;
+  color: #9ca3af;
+  padding: 64px 0;
+}
+
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.brand-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.logo-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.logo-icon svg {
+  fill: #60a5fa;
+}
+
+.social-icons {
+  display: flex;
+  gap: 16px;
+  margin-top: 60px;
+}
+
+.social-icons a {
+  color: #9ca3af;
+  transition: color 0.2s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+
+.footer-section h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 16px 0;
+  border-top: 1px solid #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.payment-methods {
+  display: flex;
+  gap: 16px;
+}
+
+.payment-methods img {
+  height: 24px;
+  width: auto;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 32px 0;
+  }
+
+  .footer-container {
+    margin-bottom: 32px;
+  }
+}

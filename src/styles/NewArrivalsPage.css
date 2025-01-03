@@ -1,0 +1,113 @@
+.arv-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #4a4a4a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-container {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-grow: 0; 
+  flex-shrink: 0;
+}
+
+.arv-header {
+}
+
+.breadcrumb {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.breadcrumb .separator {
+  margin: 0 10px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.arv-content {
+  flex: 1;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 1000px;
+  margin: auto;
+  background: #9A9A9A;
+}
+.arv-items {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 15px 0;
+}
+
+.arv-pages {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-move-btn {
+  padding: 0.8rem 2rem;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+
+.page-move-btn svg {
+  margin: 0px 8px;  
+}
+
+.arv-page hr {
+  border: none;   
+  height: 2px;
+  width: 96%;
+  background-color: rgb(0,0,0,0.2);
+}
+
+.page-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+}
+
+.page-button:hover {
+  background-color: rgb(0,0,0,0.1);
+}
+
+.page-button.active {
+  background-color: rgb(0,0,0,0.2);
+}
+
+.page-button:focus {
+  outline: none;
+}
