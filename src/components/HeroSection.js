@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="hero-container" >
       <img src={homeBanner} />
       <button type="button">
-        <Link to="/newArrivals">Shop Now</Link>
+        <Link className="link" to="/newArrivals">Shop Now</Link>
       </button>
       <div className="hero-content">
         <h1>FIND CLOTHES</h1>

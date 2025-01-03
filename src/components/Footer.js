@@ -16,10 +16,10 @@ const Footer = () => {
               <img src={logo} />
             </div>
             <div className="social-icons">
-              <a href="#"><Twitter /></a>
-              <a href="#"><Facebook /></a>
-              <a href="#"><Instagram /></a>
-              <a href="#"><Github /></a>
+              <a ><Twitter /></a>
+              <a ><Facebook /></a>
+              <a ><Instagram /></a>
+              <a ><Github /></a>
             </div>
           </div>
 
@@ -27,10 +27,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>COMPANY</h3>
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Features</a></li>
-              <li><a href="#">Works</a></li>
-              <li><a href="#">Career</a></li>
+              <li><a >About</a></li>
+              <li><a >Features</a></li>
+              <li><a >Works</a></li>
+              <li><a >Career</a></li>
             </ul>
           </div>
 
@@ -38,10 +38,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>HELP</h3>
             <ul>
-              <li><a href="#">Customer Support</a></li>
-              <li><a href="#">Delivery Details</a></li>
-              <li><a href="#">Terms & Conditions</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a >Customer Support</a></li>
+              <li><a >Delivery Details</a></li>
+              <li><a >Terms & Conditions</a></li>
+              <li><a >Privacy Policy</a></li>
             </ul>
           </div>
 
@@ -49,10 +49,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>FAQ</h3>
             <ul>
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Manage Deliveries</a></li>
-              <li><a href="#">Orders</a></li>
-              <li><a href="#">Payments</a></li>
+              <li><a >Account</a></li>
+              <li><a >Manage Deliveries</a></li>
+              <li><a >Orders</a></li>
+              <li><a >Payments</a></li>
             </ul>
           </div>
 
@@ -60,10 +60,10 @@ const Footer = () => {
           <div className="footer-section">
             <h3>RESOURCES</h3>
             <ul>
-              <li><a href="#">Free eBooks</a></li>
-              <li><a href="#">Development Tutorial</a></li>
-              <li><a href="#">How to - Blog</a></li>
-              <li><a href="#">Youtube Playlist</a></li>
+              <li><a >Free eBooks</a></li>
+              <li><a >Development Tutorial</a></li>
+              <li><a >How to - Blog</a></li>
+              <li><a >Youtube Playlist</a></li>
             </ul>
           </div>
         </div>

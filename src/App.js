@@ -8,6 +8,7 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import CartPage from "./pages/CartPage";
 import NewArrivalsPage from "./pages/NewArrivalsPage";
 import NewsLetterDialog from "./pages/NewsLetterDialog";
+import "./App.css"
 
 function App() {
   const [showSignUp, setShowSignUp] = useState(true)

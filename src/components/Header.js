@@ -4,8 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faShoppingCart, faSearch, faAngleDown } from '@fortawesome/free-solid-svg-icons';
 import icon from '../assets/icon.png'
 import SignUpDialog from '../pages/SignUpDialog'
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
+
   const [scrolled, setScrolled] = useState(false);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
@@ -34,7 +37,7 @@ const Header = () => {
             src={icon}
             alt="Logo"
             className="logo-image"
-            onClick={() => { window.location.href = '/' }}
+            onClick={() => { navigate('/') }}
           />
         </div>
 
@@ -44,9 +47,9 @@ const Header = () => {
             <FontAwesomeIcon icon={faAngleDown} style={{ marginLeft: "5px" }} />
           </li>
           <li className="nav-item">On Sale</li>
-          <li className="nav-item" onClick={() => {
-            window.location.href = '/newArrivals'
-          }}>New Arrivals</li>
+          <li className="nav-item">
+            <Link className="link" to="/newArrivals">New Arrivals</Link>
+          </li>
           <li className="nav-item">Brands</li>
         </ul>
 
@@ -62,7 +65,7 @@ const Header = () => {
 
         <div className="icons">
           <FontAwesomeIcon icon={faShoppingCart} onClick={() => {
-            window.location.href = '/cart'
+            navigate('/cart')
           }} />
           <FontAwesomeIcon icon={faUser} onClick={() => {
             setIsDialogOpen(true);

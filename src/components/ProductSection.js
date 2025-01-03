@@ -2,10 +2,13 @@ import React from "react";
 import "../styles/ProductSection.css";
 import banner2 from '../assets/home-banner-2.png'
 import ProductCard from "./ProductCard";
+import { useNavigate } from "react-router-dom";
 
 const ProductSection = ({ arrivals, top }) => {
+  const navigate = useNavigate();
+
   const moveToPage = () => {
-    window.location.href = '/newArrivals'
+    navigate('/newArrivals')
   }
 
   return (
