@@ -18,7 +18,7 @@ function App() {
   }
 
   return (
-    <Router>
+    <Router basename="/fifth-website">
       <div>
         {showSignUp && (
           <div style={{
